@@ -19,7 +19,7 @@ function App() {
   <>
   <NavBar homeTitle={'Home'} bioTitle={'Bio'}  projectTitle={'Projects'} contactTitle={'Contact'}/>
     <Routes>
-      <Route exact path='/ldhlong.github.io' component={HomePage}/>
+      <Route exact path='/ldhlong.github.io/portfolio1/' component={HomePage}/>
       <Route path='/bio' component={BioPage}/>
       <Route path='/projects' component={ProjectPage}/>
       <Route path='/contact' component={ContactPage}/>
