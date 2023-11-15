@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function HomePage() {
     const location = useLocation();
 
-    if (location.pathname === '/'){
+    if (location.pathname === '/ldhlong.github.io'){
     return (
         <main>
             <section class="homepage"> 
