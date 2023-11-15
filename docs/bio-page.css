@@ -1,0 +1,78 @@
+main {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.resume-header {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+ol {
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+.objective-title, .education-title, .experience-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    padding: 20px 0 0 0;
+    margin-left: 20px;
+    margin-bottom: 0;
+
+}
+
+.objective-title {
+    margin-bottom: 16px;
+}
+
+.objective-paragraph {
+    margin-bottom: 16px;
+    margin-left: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.school-info, .job-info{
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline
+}
+
+.school-name, .company-name {
+    margin-top: 0;
+}
+
+.item {
+    margin-bottom: 16px;
+    margin-right: 5px;
+}
+
+/* Desktop */
+@media screen and (min-width: 1200px) {
+    main {
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
+    .item, .company-name, .job, time, .school-info, .school-name, .objective-paragraph {
+        font-size: 18px;
+    }
+
+    .objective-title, .education-title, .experience-title {
+        font-size: 20px;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width:750px) and (max-width: 1200px) {
+    .objective-title, .education-title, .experience-title, .info {
+        font-size: 20px;
+    }
+
+    .item, .company-name, .job, time, .school-info, .school-name, .objective-paragraph {
+        font-size: 20px;
+    }
+}
+

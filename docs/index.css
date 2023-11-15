@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #98868e;
+}
+
+code {
+  font-family: 'Lato', sans-serif;
+}
+
+html, body {
+  border: solid #FFB6C1 3px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
